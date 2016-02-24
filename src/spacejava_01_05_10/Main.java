@@ -45,7 +45,7 @@ public class Main {
        FileHandler logFile = new FileHandler("output%g.txt",true);
        logFile.setFormatter(new SimpleFormatter());
        logger.addHandler(logFile);
-       logger.log(Level.INFO, "::::::::::::::::::Init Log1::::::::::::::::::");
+       logger.log(Level.INFO, "::::::::::::::::::Initj uhijhiLog1::::::::::::::::::");
        Random rand = new Random();      
 
 
