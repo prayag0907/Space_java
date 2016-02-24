@@ -64,7 +64,7 @@ public class Main {
 
 
 //***********************************************************************************
-// Create planet objects
+// Create planet objects testttttt
 // structure is as follows:
 // xPos,yPos,planetName,fuel,money,sugarQuantity,riceQuantity,ironQuantity,ironDesiredQuantity,sugarDesiredQuantity,riceDesiredQuantity,fuelPrice
 // int xPos, int yPos, char* name, int m, int f, int iq, int sq, int rq, int idq, int sdq, int rdq, int fp
