@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
+//Prayag is stupid
 package spacejava_01_05_10;
 
 import java.io.BufferedReader;
