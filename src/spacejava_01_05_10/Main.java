@@ -45,8 +45,9 @@ public class Main {
        FileHandler logFile = new FileHandler("output%g.txt",true);
        logFile.setFormatter(new SimpleFormatter());
        logger.addHandler(logFile);
-       logger.log(Level.INFO, "::::::::::::::::::Init Logging::::::::::::::::::");
+       logger.log(Level.INFO, "::::::::::::::::::Init Log1::::::::::::::::::");
        Random rand = new Random();      
+
 
    Planet jupiter = new Planet(36,(rand.nextInt(POSITIVE_Y_LIMIT - NEGATIVE_Y_LIMIT + 1) + NEGATIVE_Y_LIMIT),1.5,"Juptier",2000,6000,100,100,100,100,200,10,100);
    Planet earth = new Planet (12,(rand.nextInt(POSITIVE_Y_LIMIT - NEGATIVE_Y_LIMIT + 1) + NEGATIVE_Y_LIMIT),1.0,"Earth",25000,10000,1000,1000,1000,1200,50,100,100);
@@ -64,7 +65,7 @@ public class Main {
 
 
 //***********************************************************************************
-// Create planet objects testttttt
+// Create planet objects
 // structure is as follows:
 // xPos,yPos,planetName,fuel,money,sugarQuantity,riceQuantity,ironQuantity,ironDesiredQuantity,sugarDesiredQuantity,riceDesiredQuantity,fuelPrice
 // int xPos, int yPos, char* name, int m, int f, int iq, int sq, int rq, int idq, int sdq, int rdq, int fp
