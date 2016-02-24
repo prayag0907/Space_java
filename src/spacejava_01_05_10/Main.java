@@ -1,4 +1,4 @@
-/*
+
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -45,14 +45,19 @@ public class Main {
        FileHandler logFile = new FileHandler("output%g.txt",true);
        logFile.setFormatter(new SimpleFormatter());
        logger.addHandler(logFile);
-       logger.log(Level.INFO, "::::::::::::::::::Init Log1::::::::::::::::::");
-       Random rand = new Random();      
+       logger.log(Level.INFO, "::::::::::::::::::Initj uhijhiLog1::::::::::::::::::");
+       Random rand = new Random();     
+
         final int PLANET_NAME_SIZE=9;
         final int UNIVERSE_ARRAY_SIZE=9;
         int moonCounter=0;
         int number_of_planets=0;
         int movePosition=0;
-gdfgrgregrgresgrdegregeregrergesrge
+//This is a test SGHGHH
+=======
+//THIS IS A DAM COMMENTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
    Planet jupiter = new Planet(36,(rand.nextInt(POSITIVE_Y_LIMIT - NEGATIVE_Y_LIMIT + 1) + NEGATIVE_Y_LIMIT),1.5,"Juptier",2000,6000,100,100,100,100,200,10,100);
    Planet earth = new Planet (12,(rand.nextInt(POSITIVE_Y_LIMIT - NEGATIVE_Y_LIMIT + 1) + NEGATIVE_Y_LIMIT),1.0,"Earth",25000,10000,1000,1000,1000,1200,50,100,100);
    Planet mars = new Planet (3,(rand.nextInt(POSITIVE_Y_LIMIT - NEGATIVE_Y_LIMIT + 1) + NEGATIVE_Y_LIMIT),1.0,"Mars",7000,0,0,100,100,0,500,0,100);
